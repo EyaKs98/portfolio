@@ -1,0 +1,19 @@
+{
+  "name": "portfolio-server",
+  "version": "1.0.0",
+  "description": "API Node/Express + SQL Server pour le portfolio (projets + messages de contact)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "seed": "node seed.js",
+    "export": "node export-projects.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mssql": "11.0.1",
+    "nodemailer": "^10.1.3"
+  }
+}
