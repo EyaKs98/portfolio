@@ -1,0 +1,78 @@
+:root {
+  --bg: #06101c;
+  --bg-alt: #0a1a28;
+  --card: #0d2230;
+  --border: #1c3b4c;
+  --text: #e6f4f1;
+  --text-dim: #93b5b0;
+  --text-soft: #c3dbd7;
+  --accent: #2dd4bf;
+  --accent-strong: #14b8a6;
+  --accent-contrast: #03211d;
+  --accent-hover: #5eead4;
+  --nav-bg: rgba(6, 16, 28, 0.8);
+  --overlay-bg: rgba(3, 20, 18, 0.82);
+  --img-from: #0e3b4a;
+  --img-to: #0a1a28;
+  --shadow: rgba(0, 0, 0, 0.35);
+  --accent-glow: rgba(45, 212, 191, 0.12);
+  --accent-soft: rgba(45, 212, 191, 0.1);
+  --ring-end: #0e7490;
+  --tag-bg: rgba(45, 212, 191, 0.9);
+  --bg-top: #050a1a;
+  --bg-bottom: #0b2634;
+  --bg-alt-glass: rgba(10, 26, 40, 0.55);
+  --dots: rgba(94, 234, 212, 0.22);
+  --glow-a: rgba(45, 212, 191, 0.22);
+  --glow-b: rgba(56, 120, 248, 0.22);
+}
+
+:root[data-theme='light'] {
+  --bg: #ecf7f5;
+  --bg-alt: #dcefeb;
+  --card: #ffffff;
+  --border: #b3d3cd;
+  --text: #0d2523;
+  --text-dim: #4d6b67;
+  --text-soft: #2c4a46;
+  --accent: #0d9488;
+  --accent-strong: #0f766e;
+  --accent-contrast: #ffffff;
+  --accent-hover: #14b8a6;
+  --nav-bg: rgba(236, 247, 245, 0.9);
+  --overlay-bg: rgba(7, 40, 36, 0.78);
+  --img-from: #cdeae6;
+  --img-to: #dcefeb;
+  --shadow: rgba(13, 80, 72, 0.22);
+  --accent-glow: rgba(13, 148, 136, 0.15);
+  --accent-soft: rgba(13, 148, 136, 0.1);
+  --ring-end: #67e8f9;
+  --tag-bg: rgba(13, 148, 136, 0.92);
+  --bg-top: #f3fbfa;
+  --bg-bottom: #d6ece8;
+  --bg-alt-glass: rgba(220, 239, 235, 0.6);
+  --dots: rgba(13, 148, 136, 0.28);
+  --glow-a: rgba(45, 212, 191, 0.25);
+  --glow-b: rgba(56, 120, 248, 0.14);
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+html {
+  zoom: 0.88; /* réduit l'échelle globale du portfolio (équivaut à un zoom navigateur de 88 %) */
+  scroll-behavior: smooth;
+  scroll-padding-top: 72px;
+}
+
+body {
+  min-height: calc(100vh / 0.88);
+  background: linear-gradient(180deg, var(--bg-top), var(--bg-bottom)) fixed;
+  transition: background 0.25s, color 0.25s;
+  font-family: 'Segoe UI', system-ui, sans-serif;
+  color: var(--text);
+  line-height: 1.6;
+}
+
+a { color: inherit; text-decoration: none; }
+
+app-root { display: block; position: relative; z-index: 0; }
