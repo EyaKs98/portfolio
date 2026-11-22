@@ -1,0 +1,90 @@
+[
+  {
+    "_id": 1,
+    "title": "Générateur de résumés & emails",
+    "description": "Résume, reformule ou transforme un texte en email professionnel via l'API Groq (IA générative).",
+    "tags": [
+      "Angular",
+      "Node.js",
+      "Groq API"
+    ],
+    "githubUrl": "https://github.com/EyaKs98/resume-generator-app",
+    "imageUrl": "assets/projects/resume-generator-ia.jpg",
+    "demoUrl": "",
+    "category": "pro"
+  },
+  {
+    "_id": 2,
+    "title": "Analyseur de sentiment",
+    "description": "Classe automatiquement des avis clients ou tickets support en positif / neutre / négatif via Hugging Face.",
+    "tags": [
+      "Angular",
+      "Node.js",
+      "Hugging Face"
+    ],
+    "githubUrl": "https://github.com/EyaKs98/sentiment-analyzer-app",
+    "imageUrl": "assets/projects/sentiment-analyzer-ia.jpg",
+    "demoUrl": "",
+    "category": "pro"
+  },
+  {
+    "_id": 3,
+    "title": "Chatbot FAQ",
+    "description": "Assistant conversationnel qui répond à partir d'une base de connaissances définie, sans base vectorielle.",
+    "tags": [
+      "Angular",
+      "Node.js",
+      "Groq API"
+    ],
+    "githubUrl": "https://github.com/EyaKs98/faq-chatbot-app",
+    "imageUrl": "assets/projects/faq-chatbot-ia.jpg",
+    "demoUrl": "",
+    "category": "pro"
+  },
+  {
+    "_id": 4,
+    "title": "Smart Delivery",
+    "description": "Application qui aide les entreprises à gagner en efficacité opérationnelle et à améliorer la qualité du service client, en optimisant les itinéraires et les séquences de livraison que les chauffeurs doivent suivre.",
+    "tags": [
+      "React",
+      "Node.js",
+      "MongoDB"
+    ],
+    "githubUrl": "https://github.com/EyaKs98/SmartDelivery",
+    "imageUrl": "assets/projects/smart-delivery-1.jpg",
+    "demoUrl": "",
+    "category": "academic"
+  },
+  {
+    "_id": 5,
+    "title": "My School",
+    "description": "Système de gestion scolaire destiné aux élèves et à l'administration : une application desktop, web et mobile pour gérer les écoles.",
+    "tags": [
+      "Java",
+      "JavaFX",
+      "Symfony",
+      "Codename One",
+      "MySQL"
+    ],
+    "githubUrl": "https://github.com/EyaKs98/gestion-d-ecole-",
+    "imageUrl": "assets/projects/my-school-1.jpg",
+    "demoUrl": "",
+    "category": "academic"
+  },
+  {
+    "_id": 6,
+    "title": "Wapi",
+    "description": "Site de commerce électronique spécialisé dans le mobilier, développé en PHP, HTML5, CSS3 et JavaScript, selon une architecture MVC.",
+    "tags": [
+      "PHP",
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "MVC"
+    ],
+    "githubUrl": "https://github.com/EyaKs98/wapi-ecommerce-website",
+    "imageUrl": "assets/projects/wapi-1.jpg",
+    "demoUrl": "",
+    "category": "academic"
+  }
+]
