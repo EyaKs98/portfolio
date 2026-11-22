@@ -1,0 +1,8 @@
+Place ici ces fichiers pour compléter le portfolio :
+
+- profile.jpg              -> ta photo (format carré de préférence)
+- CV_EyaKsouri_FR.pdf      -> ton CV en français  (boutons "CV FR" / "Télécharger mon CV")
+- CV_EyaKsouri_EN.pdf      -> ton CV en anglais   (bouton "CV EN")
+
+Sans profile.jpg, un cercle avec tes initiales (EK) s'affiche à la place.
+Sans un PDF, le bouton du CV correspondant s'affiche grisé « bientôt disponible ».
