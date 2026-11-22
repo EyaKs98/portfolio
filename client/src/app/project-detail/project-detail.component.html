@@ -1,0 +1,26 @@
+<header class="detail-nav">
+  <a routerLink="/" class="back-link">← Retour au portfolio</a>
+</header>
+
+<div class="detail-container">
+  <p *ngIf="loading" class="muted">Chargement...</p>
+  <p *ngIf="notFound" class="muted">Ce projet n'existe pas ou a été supprimé.</p>
+
+  <ng-container *ngIf="project">
+    <div class="detail-image" *ngIf="project.imageUrl">
+      <img [src]="project.imageUrl" [alt]="project.title">
+    </div>
+
+    <div class="tags">
+      <span *ngFor="let t of project.tags">{{ t }}</span>
+    </div>
+
+    <h1>{{ project.title }}</h1>
+    <p class="description">{{ project.description }}</p>
+
+    <div class="detail-actions">
+      <a *ngIf="project.demoUrl" [href]="project.demoUrl" target="_blank" rel="noopener" class="btn btn-primary">Voir la démo ↗</a>
+      <a *ngIf="project.githubUrl" [href]="project.githubUrl" target="_blank" rel="noopener" class="btn btn-outline">Voir sur GitHub ↗</a>
+    </div>
+  </ng-container>
+</div>
